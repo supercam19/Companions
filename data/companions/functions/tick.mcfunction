@@ -1,4 +1,4 @@
-execute as @e[type=wolf,tag=!cmp.companion] at @s if data entity @s Owner if entity @e[type=item,distance=..2,nbt={Item:{id: "minecraft:golden_apple"}}] run function companions:create_companion
+execute as @e[type=wolf,tag=!cmp.companion] at @s if data entity @s Owner if entity @e[type=item,distance=..2,nbt={Item:{id: "minecraft:golden_apple"}}] if entity @p[tag=!cmp.has_companion, distance=..5] run function companions:create_companion
 execute as @e[tag=cmp.companion] at @s run function companions:companion_particles
 execute as @e[tag=cmp.companion] at @s if entity @e[type=item,distance=..2,nbt={Item:{id: "minecraft:book"}}] run execute as @a if score @s cmp.identifier = @e[type=wolf,tag=cmp.companion,sort=nearest,limit=1] cmp.identifier run function companions:companion_book
 function companions:track_exp
