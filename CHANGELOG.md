@@ -1,0 +1,11 @@
+# Companions datapack changelog
+
+## Update 1.0.1
+
+### Additions
+ - Created CHANGELOG.md to document changes
+ - Sound effect that plays when a new companion is created
+
+### Fixes
+ - Fixed a bug where if another player was closer when a companion was created than the one that threw the golden apple, then it would become the companion to the other player
+ - Fixed bug where a player could have more than one companion
