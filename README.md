@@ -16,6 +16,12 @@ And more features, such as:
 ## Getting Started
 This datapack is able to be installed like any other datapack, without extra configuration or things you must do to setup.
 
+---
+
+Download the latest version of the datapack [here](https://github.com/supercam19/Companions/releases/latest)
+
 [Use this tutorial to learn how to install datapacks](https://www.planetminecraft.com/blog/how-to-download-and-install-minecraft-data-packs/)
+
+---
 
 Once this datapack has been installed on your world you may go ahead and tame a wolf or find one already tamed. Throw a golden apple to it and it will become your companion. To view the helpful GUI, throw a book at your companion to receive the a written book, which serves as the GUI.
