@@ -1,0 +1,1 @@
+particle minecraft:scrape ~ ~ ~ 0.3 0.5 0.3 0.005 1 normal

@@ -1,0 +1,34 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "parent": "companions:the_end_gift",
+    "display": {
+        "title": {
+            "text": "An Unusual Gift"
+        },
+        "description": {
+            "text": "Have your companion gift you an ultra-rare dragon head"
+        },
+        "icon": {
+            "item": "minecraft:dragon_head"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "cmp": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:dragon_head"
+                          ],
+                          "nbt": "{id:000019}"
+                    }
+                ]
+            }
+        }
+    }
+}

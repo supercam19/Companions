@@ -1,0 +1,24 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "parent": "companions:receive_gift",
+    "display": {
+        "title": {
+            "text": "The Hottest Gift"
+        },
+        "description": {
+            "text": "Receive a hot gift from your companion while in the nether"
+        },
+        "icon": {
+            "item": "minecraft:blaze_powder"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "cmp": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

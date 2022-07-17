@@ -1,0 +1,27 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "parent": "companions:root",
+    "display": {
+        "title": {
+            "text": "A New Beginning"
+        },
+        "description": {
+            "text": "Give your tamed dog a golden apple to make them your companion"
+        },
+        "icon": {
+            "item": "minecraft:enchanted_golden_apple"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+        
+    },
+    "criteria": {
+        "cmp": {
+
+            "trigger": "minecraft:impossible"
+
+        }
+    }
+}

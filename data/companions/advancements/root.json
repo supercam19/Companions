@@ -1,0 +1,39 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:golden_apple"
+      },
+      "title": {
+        "text": "Companions"
+      },
+      "description": {
+        "text": "Companions to join your adventure"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false,
+      "background": "minecraft:textures/block/stripped_oak_log.png"
+    },
+    "criteria": {
+      "tamed_animal": {
+        "trigger": "minecraft:tame_animal",
+        "conditions": {
+            "entity": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type": "minecraft:wolf"
+                }
+              }
+            ]
+          }
+      }
+    },
+    "requirements": [
+      [
+        "tamed_animal"
+      ]
+    ]
+  }

@@ -1,0 +1,24 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "parent": "companions:bonding",
+    "display": {
+        "title": {
+            "text": "Companionship"
+        },
+        "description": {
+            "text": "Achieve a level three friendship with your companion"
+        },
+        "icon": {
+            "item": "minecraft:sweet_berries"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "cmp": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}
