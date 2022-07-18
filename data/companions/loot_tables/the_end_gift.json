@@ -37,7 +37,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
+          "weight": 10,
           "name": "minecraft:dragon_head",
           "functions": [
             {
@@ -59,7 +59,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 10,
+          "weight": 20,
           "name": "minecraft:elytra",
           "conditions": [
             {
