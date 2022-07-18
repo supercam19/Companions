@@ -2,6 +2,9 @@
 
 ## Update 1.0.2
 
+### Additions
+ - Add "Mortal Enemies" advancement
+
 ### Changes
  - Removed the "executed x commands from function y" command feedback
  - Friendship xp now carries over when leveling up
