@@ -1,0 +1,24 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "parent": "companions:warrior",
+    "display": {
+        "title": {
+            "text": "Mortal Enemies"
+        },
+        "description": {
+            "text": "Kill a skeleton with the aid of your companion"
+        },
+        "icon": {
+            "item": "minecraft:skeleton_skull"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "cmp": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

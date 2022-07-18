@@ -3,7 +3,7 @@
 Companions is a minecraft datapack for 1.19 that improves the usefulness and interactions with pets (wolves)! Each player can choose one tamed wolf to be their companion and interact with them through a GUI.
 ![Display of datapack's GUI](resources/preview_gui.png)
 
-The datapack includes 11 progression based advancements:
+The datapack includes 12 progression based advancements:
 
 ![Display of datapack's advancements](resources/preview_advancements.png)
 
