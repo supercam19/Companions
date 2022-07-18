@@ -1,9 +1,11 @@
+gamerule sendCommandFeedback false
 clear @s written_book{id:000019}
 
 # Get stats
 tag @s add cmp.request_stats 
 execute as @e[tag=cmp.companion] if score @s cmp.identifier = @a[tag=cmp.request_stats,limit=1] cmp.identifier run tag @s add cmp.send_stats
 tag @s remove cmp.request_stats
+gamerule commandBlockOutput false
 execute store result score @s cmp.max_health run attribute @e[tag=cmp.send_stats,limit=1] generic.max_health get
 execute store result score @s cmp.health run data get entity @e[tag=cmp.send_stats,limit=1] Health
 execute store result score @s cmp.defense run attribute @e[tag=cmp.send_stats,limit=1] generic.armor get
@@ -13,3 +15,4 @@ give @s written_book{id:000019, pages:['["",{"text":"  "},{"text":"Companion\'s 
 
 execute positioned as @e[type=wolf,sort=nearest,limit=1,tag=cmp.companion] run kill @e[type=item,distance=..2,nbt={Item:{id:"minecraft:book"}},sort=nearest,limit=1]
 advancement grant @s only companions:introductions
+schedule function companions:enable_command_feedback 1t

@@ -3,6 +3,7 @@
 ## Update 1.0.2
 
 ### Changes
+ - Removed the "executed x commands from function y" command feedback
  - Friendship xp now carries over when leveling up
 
 ## Update 1.0.1
