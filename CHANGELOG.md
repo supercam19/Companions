@@ -8,6 +8,7 @@
 ### Changes
  - Removed the "executed x commands from function y" command feedback
  - Friendship xp now carries over when leveling up
+ - Increased the the chances to get an elytra and a dragon head from a gift
 
 ## Update 1.0.1
 
