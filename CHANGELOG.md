@@ -1,5 +1,10 @@
 # Companions datapack changelog
 
+## Hotfix 1.0.3
+
+### Fixes
+ - Fixed the measurement of time being used to count the delay before checking for gifts, which would cause gifts to almost never work
+
 ## Update 1.0.2
 
 ### Additions
