@@ -1,6 +1,6 @@
 playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~ 0.5 0.5
 scoreboard players add @s cmp.friendship 1
-scoreboard players set @s cmp.exp 0
+scoreboard players operation @s cmp.exp -= @s cmp.next_level
 tellraw @s ["",{"text":"Your companion has reached level "},{"score":{"name":"@s","objective":"cmp.friendship"},"color":"green"},{"text": "!"}]
 
 

@@ -1,5 +1,10 @@
 # Companions datapack changelog
 
+## Update 1.0.2
+
+### Changes
+ - Friendship xp now carries over when leveling up
+
 ## Update 1.0.1
 
 ### Additions
