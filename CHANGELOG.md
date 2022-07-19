@@ -13,6 +13,7 @@ The main issue I wanted to address with this update is how getting gifts would h
 
  ### Fixes
   - Fixed bug where players could not hear friendship level up sounds
+  - If a player has a gift pending, they can no longer become eligible for another gift (they will no longer get the chat message and sound effect)
 
 ## Hotfix 1.0.3
 
