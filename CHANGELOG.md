@@ -7,6 +7,9 @@ The main issue I wanted to address with this update is how getting gifts would h
 ### Changes
  - Gifts now become significantly more common the higher your friendship level is
  - Now gain 3 friendship xp upon collecting a gift
+ - Sound effect to play when a gift is ready
+ - Teleporting sound effect when summoning your companion
+ - New chat message when your companion has a gift
 
  ### Fixes
   - Fixed bug where players could not hear friendship level up sounds
