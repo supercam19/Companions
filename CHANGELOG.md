@@ -1,5 +1,15 @@
 # Companions datapack changelog
 
+## Gifting Update [1.0.4]
+
+The main issue I wanted to address with this update is how getting gifts would happen very infrequently (on average one every hour and 40 minutes) and the fact that getting the advancement An Unusual Gift would take dozens of hours waiting in the end.
+
+### Changes
+ - Gifts now become significantly more common the higher your friendship level is
+
+ ### Fixes
+  - Fixed bug where players could not hear friendship level up sounds
+
 ## Hotfix 1.0.3
 
 ### Fixes
