@@ -2,9 +2,13 @@
 
 ## Multiplayer Fixes [1.0.5]
 
+### Changes
+ - Made the daily friendship xp reward requirements more forgiving in multiplayer
+
 ### Fixes
  - Fixed if another companion is nearer when a player is creating their companion they wouldn't get linked to their new companion
  - Fixed bug where friendship xp gain from killing mobs usually wouldn't work in multiplayer
+ - Fixed books sometimes getting stats from the wrong companion in multiplayer
 
 ## Gifting Update [1.0.4]
 
