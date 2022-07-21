@@ -15,4 +15,5 @@ give @s written_book{id:000019, pages:['["",{"text":"  "},{"text":"Companion\'s 
 
 execute positioned as @e[type=wolf,sort=nearest,limit=1,tag=cmp.companion] run kill @e[type=item,distance=..2,nbt={Item:{id:"minecraft:book"}},sort=nearest,limit=1]
 advancement grant @s only companions:introductions
+tag @e remove cmp.send_stats
 schedule function companions:enable_command_feedback 1t

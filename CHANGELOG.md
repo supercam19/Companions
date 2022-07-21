@@ -1,5 +1,11 @@
 # Companions datapack changelog
 
+## Multiplayer Fixes [1.0.5]
+
+### Fixes
+ - Fixed if another companion is nearer when a player is creating their companion they wouldn't get linked to their new companion
+ - Fixed bug where friendship xp gain from killing mobs usually wouldn't work in multiplayer
+
 ## Gifting Update [1.0.4]
 
 The main issue I wanted to address with this update is how getting gifts would happen very infrequently (on average one every hour and 40 minutes) and the fact that getting the advancement An Unusual Gift would take dozens of hours waiting in the end.
