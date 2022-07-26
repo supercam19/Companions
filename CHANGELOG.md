@@ -1,5 +1,11 @@
 # Companions datapack changelog
 
+## Companion Treats [1.1.0]
+
+### Additions
+ - Added treats that you can give to your companion to boost friendship
+   - Bone Treat: grants 50 xp points
+
 ## Multiplayer Fixes [1.0.5]
 
 ### Changes
