@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "weight": 1,
+            "name": "companions:vanilla/cow"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:beef",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'[{\"text\":\"Beef Treat\",\"italic\":false}]',Lore:['[{\"text\":\"Give to your companion to\",\"italic\":false}]','[{\"text\":\"increase friendship!\",\"italic\":false}]','[{\"text\":\"❤❤❤❤❤❤❤❤\",\"italic\":false}]']},Enchantments:[{}],id:\"cmp.treat\"}"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.4
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

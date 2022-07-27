@@ -5,6 +5,8 @@
 ### Additions
  - Added treats that you can give to your companion to boost friendship
    - Bone Treat: grants 50 xp points | dropped rarely from skeletons
+   - Berry Treat: grants 30 xp points | dropped rarely when destroying berry bushes
+   - Beef Treat: grants 80 xp points | dropped rarely from cows
 
 ## Multiplayer Fixes [1.0.5]
 
