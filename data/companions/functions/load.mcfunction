@@ -12,4 +12,8 @@ scoreboard objectives add cmp.damage dummy
 scoreboard objectives add cmp.lvl_up_const dummy
 scoreboard players set $companions cmp.lvl_up_const 150
 
+scoreboard objectives add cmp.berries_eaten dummy
+scoreboard objectives add cmp.bones_eaten dummy
+scoreboard objectives add cmp.beef_eaten dummy
+
 function companions:companion_particles

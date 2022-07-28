@@ -7,6 +7,9 @@
    - Bone Treat: grants 50 xp points | dropped rarely from skeletons
    - Berry Treat: grants 30 xp points | dropped rarely when destroying berry bushes
    - Beef Treat: grants 80 xp points | dropped rarely from cows
+ - Two new treat related advancements:
+   - Bone Appetite: Gotten from feeding a treat to your companion
+   - Full Course Meal: Gotten from feeding every kind of treat to your companion
 
 ### Changes
  - Reduced the amount of particles produced from companions

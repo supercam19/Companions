@@ -1,0 +1,24 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "parent": "companions:introductions",
+    "display": {
+        "title": {
+            "text": "Bone Appetite"
+        },
+        "description": {
+            "text": "Feed a treat to your companion"
+        },
+        "icon": {
+            "item": "minecraft:bone"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "cmp": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}
