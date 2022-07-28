@@ -8,6 +8,12 @@
    - Berry Treat: grants 30 xp points | dropped rarely when destroying berry bushes
    - Beef Treat: grants 80 xp points | dropped rarely from cows
 
+### Changes
+ - Reduced the amount of particles produced from companions
+
+### Fixes
+ - Fixed particles produced from companions from stretching too far on the y-axis
+
 ## Multiplayer Fixes [1.0.5]
 
 ### Changes

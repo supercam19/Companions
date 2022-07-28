@@ -11,3 +11,5 @@ scoreboard objectives add cmp.defense dummy
 scoreboard objectives add cmp.damage dummy
 scoreboard objectives add cmp.lvl_up_const dummy
 scoreboard players set $companions cmp.lvl_up_const 150
+
+function companions:companion_particles
