@@ -16,6 +16,7 @@
 
 ### Fixes
  - Fixed particles produced from companions from stretching too far on the y-axis
+ - Fixed outdated README images
 
 ## Multiplayer Fixes [1.0.5]
 
