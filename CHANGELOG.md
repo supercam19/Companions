@@ -1,6 +1,6 @@
 # Companions datapack changelog
 
-## Companion Treats [1.1.0] (in progress)
+## Companion Treats [1.1.0]
 
 ### Additions
  - Added treats that you can give to your companion to boost friendship
